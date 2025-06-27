@@ -1,0 +1,22 @@
+{
+    "name": "azla/azla_nobot",
+    "description": "laisse",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Azla\\AzlaNobot\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "azla"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "telegram-bot-php/core": "^1.1",
+        "guzzlehttp/guzzle": "^7.9",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}

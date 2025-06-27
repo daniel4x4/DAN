@@ -1,0 +1,118 @@
+.eo2680-card {
+  max-width: 470px;
+  border-radius: 5px;
+  border: solid 1px #dedede;
+  background-color: #ffffff;
+  padding: 24px 21px 24px 21px;
+  margin: 25px 0;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  font-size: 0.94rem;
+}
+
+.eo2680-oob--title{
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #333333;
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.eo2680-card figure, .eo2680-card  p {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+}
+
+.eo2680-card figure {
+    width: 72px;
+}
+ .eo2680-card  p {
+	max-width: 339px;
+    margin-left: 10px;
+    font-size: 0.94rem;
+}
+
+.eo2680-oob .eo2680-card span+figure {
+	vertical-align: baseline
+}
+
+.eo2680-oob .eo2680-card span {
+	margin-bottom: 10px
+}
+
+.eo2680-oob .eo2680-card p a {
+	margin-left: 17px;
+	margin-top: 10px;
+    display: block;
+}
+
+.eo2680-card  span {
+	display: block
+}
+
+.eo2680-pass--txt a {
+	text-align: center;
+	display: block;
+	margin-top: 10px;
+}
+.eo2680-pass hr {
+  height: 2px;
+  border: solid 1px #dedede;
+  margin: 23px 0;
+ }
+ 
+ .eo2680-ml {
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #666666;
+}
+
+.eo2680-pass--txt {
+  font-size: 0.94rem;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #333333;
+  max-width: 474px;
+}
+
+.eo2680-card figure img  {
+    display: block;
+    margin: auto;
+    margin-bottom:10px;
+} 
+
+@media screen and (max-width: 1220px) {
+ 
+.eo2680-card figure, .eo2680-card p {
+    display: block;
+ }
+ .eo2680-card figure {
+    width: auto;
+}
+ .eo2680-card p {
+    max-width: none;
+ }
+}
+
+@media screen and (max-width: 48rem) {
+ 
+  .eo2680-card figure {
+    display: block;
+  }
+  .eo2680-card figure {
+    width: auto;
+ }
+}
